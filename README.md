@@ -4,7 +4,7 @@ This directory contains multiple JavaScript projects for beginners.
 
 Available Projects:
 -------------------
--> Expanse Tracker
+-> Expanse Tracker <br>
 -> Notes Application
 -> ToDo List
 -> Vowel Counter
