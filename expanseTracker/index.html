@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- App -->
+        <div class="app">
+            <div class="app-inner">
+                <h1>Expense Tracker</h1>
+ 
+                <form>
+                    <input type="text" id="expenseName" placeholder="Expense name!">                    
+                    <input type="date" id="expenseDate"><br><br>
+                    <input type="number" id="expenseAmount" placeholder="Add Amount">
+                    <button type="button" id="addExpense">Add</button>
+                    <input type="reset"></input>
+                </form>
+            </div>
+        </div>
+        
+        <hr width="75%" class="m-auto">
+
+        <!-- Output -->
+        <div id="output">
+            <table width="100%" border="2">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
