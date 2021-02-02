@@ -1,6 +1,4 @@
--------------------
-----# Simple-JS----
--------------------
+# Simple-JS
 
 This directory contains multiple JavaScript projects for beginners.
 
